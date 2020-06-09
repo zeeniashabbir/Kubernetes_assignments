@@ -6,6 +6,7 @@ kubectl apply -k ./                         #this will create all expected deplo
 
 Create 3 replicas of deployments using these commands:
 kubectl scale  --replicas=3 deployment/wordpress
+
 kubectl scale  --replicas=3 deployment/wordpress-mysql
 
 Wordpress website is accessible at following link:
